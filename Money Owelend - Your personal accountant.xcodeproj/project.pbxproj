@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2EE6BE1F59683A005B7FEE /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2EE6BD1F59683A005B7FEE /* DashboardTableViewCell.swift */; };
+		4E2EE6C01F5968A1005B7FEE /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2EE6BF1F5968A0005B7FEE /* AddEntryViewController.swift */; };
 		4E35C05D1F4D81FE00AB8AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35C05C1F4D81FE00AB8AAF /* AppDelegate.swift */; };
 		4E35C05F1F4D81FE00AB8AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35C05E1F4D81FE00AB8AAF /* ViewController.swift */; };
 		4E35C0621F4D81FE00AB8AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E35C0601F4D81FE00AB8AAF /* Main.storyboard */; };
@@ -14,6 +16,26 @@
 		4E35C0671F4D81FE00AB8AAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E35C0651F4D81FE00AB8AAF /* LaunchScreen.storyboard */; };
 		4E35C0721F4D81FE00AB8AAF /* Money_Owelend___Your_personal_accountantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35C0711F4D81FE00AB8AAF /* Money_Owelend___Your_personal_accountantTests.swift */; };
 		4E35C07D1F4D81FF00AB8AAF /* Money_Owelend___Your_personal_accountantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35C07C1F4D81FF00AB8AAF /* Money_Owelend___Your_personal_accountantUITests.swift */; };
+		4E35C08B1F4D820900AB8AAF /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E35C08A1F4D820900AB8AAF /* bg.jpg */; };
+		4E35C08D1F4D8D3400AB8AAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E35C08C1F4D8D3400AB8AAF /* GoogleService-Info.plist */; };
+		4E35C0A21F4DBF1200AB8AAF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35C0A11F4DBF1200AB8AAF /* SignUpViewController.swift */; };
+		4E35C0A41F4DC07800AB8AAF /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35C0A31F4DC07800AB8AAF /* ResetViewController.swift */; };
+		4EA3484E1F4E22DC000BB7E0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3484D1F4E22DC000BB7E0 /* MainViewController.swift */; };
+		4EA348521F4F4A2E000BB7E0 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA348511F4F4A2E000BB7E0 /* upload.png */; };
+		4EA348561F508B8A000BB7E0 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA348551F508B8A000BB7E0 /* DashboardViewController.swift */; };
+		4EA348581F5176F3000BB7E0 /* AddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA348571F5176F3000BB7E0 /* AddFriendsViewController.swift */; };
+		4EA348601F51F4CD000BB7E0 /* SentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3485F1F51F4CD000BB7E0 /* SentViewController.swift */; };
+		4EA348621F51F4F4000BB7E0 /* ReceivedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA348611F51F4F4000BB7E0 /* ReceivedViewController.swift */; };
+		4EA348641F51F51A000BB7E0 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA348631F51F51A000BB7E0 /* FriendListViewController.swift */; };
+		4EA348681F51FE51000BB7E0 /* SentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA348671F51FE51000BB7E0 /* SentTableViewCell.swift */; };
+		4EC5A50B1F52FF1600612010 /* ReceivedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5A50A1F52FF1600612010 /* ReceivedTableViewCell.swift */; };
+		4EC5A50D1F5335B900612010 /* FriendListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5A50C1F5335B900612010 /* FriendListTableViewCell.swift */; };
+		4EF9EB761F55DCB9004384AD /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF9EB751F55DCB9004384AD /* back.png */; };
+		4EF9EB781F55DE3B004384AD /* addfriends.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF9EB771F55DE3B004384AD /* addfriends.png */; };
+		4EF9EB7A1F55DF0B004384AD /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF9EB791F55DF0B004384AD /* Add.png */; };
+		AEB8E7FFE5A4DB799D207BC3 /* Pods_Money_Owelend___Your_personal_accountantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2AF0CA79C18FC5D2AC05B0 /* Pods_Money_Owelend___Your_personal_accountantUITests.framework */; };
+		E2DC5D1C8A993E7A54C0FF1C /* Pods_Money_Owelend___Your_personal_accountantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9EF87464DD947D3E82E7B1 /* Pods_Money_Owelend___Your_personal_accountantTests.framework */; };
+		E98573C185049ADA0A601EAB /* Pods_Money_Owelend___Your_personal_accountant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6667D2B8880BE3D079287FB7 /* Pods_Money_Owelend___Your_personal_accountant.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2302EC85D4E740D421D8638C /* Pods-Money Owelend - Your personal accountantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Money Owelend - Your personal accountantTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Money Owelend - Your personal accountantTests/Pods-Money Owelend - Your personal accountantTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B9EF87464DD947D3E82E7B1 /* Pods_Money_Owelend___Your_personal_accountantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Money_Owelend___Your_personal_accountantTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7357E6FDF9F67FD5942B5F /* Pods-Money Owelend - Your personal accountant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Money Owelend - Your personal accountant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Money Owelend - Your personal accountant/Pods-Money Owelend - Your personal accountant.debug.xcconfig"; sourceTree = "<group>"; };
+		38DC93EB3BA1AD640194452B /* Pods-Money Owelend - Your personal accountantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Money Owelend - Your personal accountantUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Money Owelend - Your personal accountantUITests/Pods-Money Owelend - Your personal accountantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E2EE6BD1F59683A005B7FEE /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		4E2EE6BF1F5968A0005B7FEE /* AddEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
 		4E35C0591F4D81FE00AB8AAF /* Money Owelend - Your personal accountant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Owelend - Your personal accountant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E35C05C1F4D81FE00AB8AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E35C05E1F4D81FE00AB8AAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +75,28 @@
 		4E35C0781F4D81FF00AB8AAF /* Money Owelend - Your personal accountantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money Owelend - Your personal accountantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E35C07C1F4D81FF00AB8AAF /* Money_Owelend___Your_personal_accountantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Money_Owelend___Your_personal_accountantUITests.swift"; sourceTree = "<group>"; };
 		4E35C07E1F4D81FF00AB8AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E35C08A1F4D820900AB8AAF /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		4E35C08C1F4D8D3400AB8AAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E35C0A11F4DBF1200AB8AAF /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4E35C0A31F4DC07800AB8AAF /* ResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		4EA3484D1F4E22DC000BB7E0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4EA348511F4F4A2E000BB7E0 /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload.png; sourceTree = "<group>"; };
+		4EA348551F508B8A000BB7E0 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		4EA348571F5176F3000BB7E0 /* AddFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendsViewController.swift; sourceTree = "<group>"; };
+		4EA3485F1F51F4CD000BB7E0 /* SentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentViewController.swift; sourceTree = "<group>"; };
+		4EA348611F51F4F4000BB7E0 /* ReceivedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedViewController.swift; sourceTree = "<group>"; };
+		4EA348631F51F51A000BB7E0 /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		4EA348671F51FE51000BB7E0 /* SentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentTableViewCell.swift; sourceTree = "<group>"; };
+		4EC5A50A1F52FF1600612010 /* ReceivedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedTableViewCell.swift; sourceTree = "<group>"; };
+		4EC5A50C1F5335B900612010 /* FriendListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListTableViewCell.swift; sourceTree = "<group>"; };
+		4EF9EB751F55DCB9004384AD /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		4EF9EB771F55DE3B004384AD /* addfriends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addfriends.png; sourceTree = "<group>"; };
+		4EF9EB791F55DF0B004384AD /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		6667D2B8880BE3D079287FB7 /* Pods_Money_Owelend___Your_personal_accountant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Money_Owelend___Your_personal_accountant.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97749829EDDCA6F244739869 /* Pods-Money Owelend - Your personal accountantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Money Owelend - Your personal accountantUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Money Owelend - Your personal accountantUITests/Pods-Money Owelend - Your personal accountantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4AED3A039A9DFEE231D3CE2 /* Pods-Money Owelend - Your personal accountantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Money Owelend - Your personal accountantTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Money Owelend - Your personal accountantTests/Pods-Money Owelend - Your personal accountantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD2AF0CA79C18FC5D2AC05B0 /* Pods_Money_Owelend___Your_personal_accountantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Money_Owelend___Your_personal_accountantUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1DF5506165A36B7F72FD2A /* Pods-Money Owelend - Your personal accountant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Money Owelend - Your personal accountant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Money Owelend - Your personal accountant/Pods-Money Owelend - Your personal accountant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98573C185049ADA0A601EAB /* Pods_Money_Owelend___Your_personal_accountant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DC5D1C8A993E7A54C0FF1C /* Pods_Money_Owelend___Your_personal_accountantTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB8E7FFE5A4DB799D207BC3 /* Pods_Money_Owelend___Your_personal_accountantUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +134,8 @@
 				4E35C0701F4D81FE00AB8AAF /* Money Owelend - Your personal accountantTests */,
 				4E35C07B1F4D81FF00AB8AAF /* Money Owelend - Your personal accountantUITests */,
 				4E35C05A1F4D81FE00AB8AAF /* Products */,
+				FFB711EC5B9948B86FB3A8D3 /* Pods */,
+				D270308F88B3BC066079771B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +152,31 @@
 		4E35C05B1F4D81FE00AB8AAF /* Money Owelend - Your personal accountant */ = {
 			isa = PBXGroup;
 			children = (
+				4EA348511F4F4A2E000BB7E0 /* upload.png */,
+				4E35C08A1F4D820900AB8AAF /* bg.jpg */,
+				4EF9EB751F55DCB9004384AD /* back.png */,
+				4EF9EB771F55DE3B004384AD /* addfriends.png */,
+				4EF9EB791F55DF0B004384AD /* Add.png */,
 				4E35C05C1F4D81FE00AB8AAF /* AppDelegate.swift */,
 				4E35C05E1F4D81FE00AB8AAF /* ViewController.swift */,
 				4E35C0601F4D81FE00AB8AAF /* Main.storyboard */,
+				4E2EE6BF1F5968A0005B7FEE /* AddEntryViewController.swift */,
+				4E2EE6BD1F59683A005B7FEE /* DashboardTableViewCell.swift */,
+				4EC5A50C1F5335B900612010 /* FriendListTableViewCell.swift */,
+				4EC5A50A1F52FF1600612010 /* ReceivedTableViewCell.swift */,
+				4EA348671F51FE51000BB7E0 /* SentTableViewCell.swift */,
+				4EA348631F51F51A000BB7E0 /* FriendListViewController.swift */,
+				4EA348611F51F4F4000BB7E0 /* ReceivedViewController.swift */,
+				4EA3485F1F51F4CD000BB7E0 /* SentViewController.swift */,
+				4EA348571F5176F3000BB7E0 /* AddFriendsViewController.swift */,
+				4EA348551F508B8A000BB7E0 /* DashboardViewController.swift */,
+				4EA3484D1F4E22DC000BB7E0 /* MainViewController.swift */,
+				4E35C0A31F4DC07800AB8AAF /* ResetViewController.swift */,
+				4E35C0A11F4DBF1200AB8AAF /* SignUpViewController.swift */,
 				4E35C0631F4D81FE00AB8AAF /* Assets.xcassets */,
 				4E35C0651F4D81FE00AB8AAF /* LaunchScreen.storyboard */,
 				4E35C0681F4D81FE00AB8AAF /* Info.plist */,
+				4E35C08C1F4D8D3400AB8AAF /* GoogleService-Info.plist */,
 			);
 			path = "Money Owelend - Your personal accountant";
 			sourceTree = "<group>";
@@ -125,6 +199,29 @@
 			path = "Money Owelend - Your personal accountantUITests";
 			sourceTree = "<group>";
 		};
+		D270308F88B3BC066079771B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6667D2B8880BE3D079287FB7 /* Pods_Money_Owelend___Your_personal_accountant.framework */,
+				2B9EF87464DD947D3E82E7B1 /* Pods_Money_Owelend___Your_personal_accountantTests.framework */,
+				BD2AF0CA79C18FC5D2AC05B0 /* Pods_Money_Owelend___Your_personal_accountantUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFB711EC5B9948B86FB3A8D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F7357E6FDF9F67FD5942B5F /* Pods-Money Owelend - Your personal accountant.debug.xcconfig */,
+				FB1DF5506165A36B7F72FD2A /* Pods-Money Owelend - Your personal accountant.release.xcconfig */,
+				B4AED3A039A9DFEE231D3CE2 /* Pods-Money Owelend - Your personal accountantTests.debug.xcconfig */,
+				2302EC85D4E740D421D8638C /* Pods-Money Owelend - Your personal accountantTests.release.xcconfig */,
+				97749829EDDCA6F244739869 /* Pods-Money Owelend - Your personal accountantUITests.debug.xcconfig */,
+				38DC93EB3BA1AD640194452B /* Pods-Money Owelend - Your personal accountantUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E35C0811F4D81FF00AB8AAF /* Build configuration list for PBXNativeTarget "Money Owelend - Your personal accountant" */;
 			buildPhases = (
+				AFFA4C6C76CE2E9484A5B705 /* [CP] Check Pods Manifest.lock */,
 				4E35C0551F4D81FE00AB8AAF /* Sources */,
 				4E35C0561F4D81FE00AB8AAF /* Frameworks */,
 				4E35C0571F4D81FE00AB8AAF /* Resources */,
+				5D7D094EDC7A9D61963181FD /* [CP] Embed Pods Frameworks */,
+				90B79090AAF11B7A0F7E2122 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E35C0841F4D81FF00AB8AAF /* Build configuration list for PBXNativeTarget "Money Owelend - Your personal accountantTests" */;
 			buildPhases = (
+				79CD34D6D7F695EC65CBAB7D /* [CP] Check Pods Manifest.lock */,
 				4E35C0691F4D81FE00AB8AAF /* Sources */,
 				4E35C06A1F4D81FE00AB8AAF /* Frameworks */,
 				4E35C06B1F4D81FE00AB8AAF /* Resources */,
+				FAF1A7139EC940D64BF0A333 /* [CP] Embed Pods Frameworks */,
+				C3DF0EFA419EE32602136738 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E35C0871F4D81FF00AB8AAF /* Build configuration list for PBXNativeTarget "Money Owelend - Your personal accountantUITests" */;
 			buildPhases = (
+				B438D95AF4AE7FBADFB6407C /* [CP] Check Pods Manifest.lock */,
 				4E35C0741F4D81FF00AB8AAF /* Sources */,
 				4E35C0751F4D81FF00AB8AAF /* Frameworks */,
 				4E35C0761F4D81FF00AB8AAF /* Resources */,
+				205940F397CABBA631AAAD8E /* [CP] Embed Pods Frameworks */,
+				152E78AC73A231AC51B7568D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +300,7 @@
 					4E35C0581F4D81FE00AB8AAF = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = B3A8ZV73R9;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					4E35C06C1F4D81FE00AB8AAF = {
@@ -235,8 +342,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA348521F4F4A2E000BB7E0 /* upload.png in Resources */,
 				4E35C0671F4D81FE00AB8AAF /* LaunchScreen.storyboard in Resources */,
 				4E35C0641F4D81FE00AB8AAF /* Assets.xcassets in Resources */,
+				4EF9EB7A1F55DF0B004384AD /* Add.png in Resources */,
+				4E35C08D1F4D8D3400AB8AAF /* GoogleService-Info.plist in Resources */,
+				4EF9EB761F55DCB9004384AD /* back.png in Resources */,
+				4EF9EB781F55DE3B004384AD /* addfriends.png in Resources */,
+				4E35C08B1F4D820900AB8AAF /* bg.jpg in Resources */,
 				4E35C0621F4D81FE00AB8AAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +370,188 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		152E78AC73A231AC51B7568D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Money Owelend - Your personal accountantUITests/Pods-Money Owelend - Your personal accountantUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		205940F397CABBA631AAAD8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Money Owelend - Your personal accountantUITests/Pods-Money Owelend - Your personal accountantUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D7D094EDC7A9D61963181FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Money Owelend - Your personal accountant/Pods-Money Owelend - Your personal accountant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Money Owelend - Your personal accountant/Pods-Money Owelend - Your personal accountant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79CD34D6D7F695EC65CBAB7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Money Owelend - Your personal accountantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90B79090AAF11B7A0F7E2122 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Money Owelend - Your personal accountant/Pods-Money Owelend - Your personal accountant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFFA4C6C76CE2E9484A5B705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Money Owelend - Your personal accountant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B438D95AF4AE7FBADFB6407C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Money Owelend - Your personal accountantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DF0EFA419EE32602136738 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Money Owelend - Your personal accountantTests/Pods-Money Owelend - Your personal accountantTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF1A7139EC940D64BF0A333 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Money Owelend - Your personal accountantTests/Pods-Money Owelend - Your personal accountantTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E35C0551F4D81FE00AB8AAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E35C0A21F4DBF1200AB8AAF /* SignUpViewController.swift in Sources */,
+				4EA348561F508B8A000BB7E0 /* DashboardViewController.swift in Sources */,
+				4EA348641F51F51A000BB7E0 /* FriendListViewController.swift in Sources */,
+				4E2EE6C01F5968A1005B7FEE /* AddEntryViewController.swift in Sources */,
+				4EA348681F51FE51000BB7E0 /* SentTableViewCell.swift in Sources */,
+				4EC5A50B1F52FF1600612010 /* ReceivedTableViewCell.swift in Sources */,
+				4EA348621F51F4F4000BB7E0 /* ReceivedViewController.swift in Sources */,
+				4E2EE6BE1F59683A005B7FEE /* DashboardTableViewCell.swift in Sources */,
 				4E35C05F1F4D81FE00AB8AAF /* ViewController.swift in Sources */,
+				4EA348601F51F4CD000BB7E0 /* SentViewController.swift in Sources */,
+				4EC5A50D1F5335B900612010 /* FriendListTableViewCell.swift in Sources */,
+				4E35C0A41F4DC07800AB8AAF /* ResetViewController.swift in Sources */,
+				4EA348581F5176F3000BB7E0 /* AddFriendsViewController.swift in Sources */,
 				4E35C05D1F4D81FE00AB8AAF /* AppDelegate.swift in Sources */,
+				4EA3484E1F4E22DC000BB7E0 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,32 +703,56 @@
 		};
 		4E35C0821F4D81FF00AB8AAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7357E6FDF9F67FD5942B5F /* Pods-Money Owelend - Your personal accountant.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B3A8ZV73R9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Money Owelend - Your personal accountant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ksk.Money-Owelend---Your-personal-accountant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4E35C0831F4D81FF00AB8AAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1DF5506165A36B7F72FD2A /* Pods-Money Owelend - Your personal accountant.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B3A8ZV73R9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Money Owelend - Your personal accountant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ksk.Money-Owelend---Your-personal-accountant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		4E35C0851F4D81FF00AB8AAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4AED3A039A9DFEE231D3CE2 /* Pods-Money Owelend - Your personal accountantTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +768,7 @@
 		};
 		4E35C0861F4D81FF00AB8AAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2302EC85D4E740D421D8638C /* Pods-Money Owelend - Your personal accountantTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +784,7 @@
 		};
 		4E35C0881F4D81FF00AB8AAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97749829EDDCA6F244739869 /* Pods-Money Owelend - Your personal accountantUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B3A8ZV73R9;
@@ -485,6 +799,7 @@
 		};
 		4E35C0891F4D81FF00AB8AAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DC93EB3BA1AD640194452B /* Pods-Money Owelend - Your personal accountantUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B3A8ZV73R9;
@@ -516,6 +831,7 @@
 				4E35C0831F4D81FF00AB8AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E35C0841F4D81FF00AB8AAF /* Build configuration list for PBXNativeTarget "Money Owelend - Your personal accountantTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +840,7 @@
 				4E35C0861F4D81FF00AB8AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E35C0871F4D81FF00AB8AAF /* Build configuration list for PBXNativeTarget "Money Owelend - Your personal accountantUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +849,7 @@
 				4E35C0891F4D81FF00AB8AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

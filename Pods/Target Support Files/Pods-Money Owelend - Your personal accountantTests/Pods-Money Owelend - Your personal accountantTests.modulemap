@@ -1,0 +1,6 @@
+framework module Pods_Money_Owelend___Your_personal_accountantTests {
+  umbrella header "Pods-Money Owelend - Your personal accountantTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
